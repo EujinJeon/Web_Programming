@@ -1,0 +1,54 @@
+.greeting-box .greeting-top-box{position:relative;padding:0 0 55px 0;display:table;width:100%;table-layout:fixed;}
+.greeting-box .greeting-top-box:after{content:'';display:block;clear:both;}
+.greeting-box .greeting-top-box > div{display:table-cell;width:50%;vertical-align:middle;}
+.greeting-box .greeting-top-box .greeting-top-txt-box{padding:40px 20px 40px 40px;z-index:10;max-width:720px;background:#1f51a2 url(../../_share/img/common/bg-opacity-logo.png) no-repeat -200px bottom/190%;box-sizing:border-box;}
+.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-p{padding:0 0 30px 0;font-size:21px;color:#fff;line-height:36px;}
+.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-title{font-weight:700;font-size:35px;color:#fff;line-height:40px;}
+.greeting-box .greeting-top-box .greeting-img-box{height:280px;}
+.greeting-box .greeting-top-box .greeting-img-box img{width:100%;height:100%;object-fit:cover;}
+
+.greeting-box .greeting-con-box{padding:0 30px;}
+.greeting-box .greeting-con-box .greeting-txt-box{width:100%;}
+.greeting-box .greeting-con-box .greeting-txt-box p{padding:0 0 30px 0;font-weight:200;font-size:16px;line-height:24px;}
+.greeting-box .greeting-con-box .greeting-txt-box p:last-of-type{padding:0;}
+.greeting-box .greeting-con-box .greeting-txt-box p.strong-p{font-weight:500;font-size:18px;color:#ed6d00;line-height:23px;}
+
+.greeting-box .greeting-sign-box{padding:25px 0 0;}
+.greeting-box .greeting-sign-box p{font-weight:500;font-size:18px;color:#000;line-height:23px;text-align:right;}
+.greeting-box .greeting-sign-box p span{display:inline-block;padding:0 0 0 24px;font-size:36px;line-height:41px;}
+
+@media screen and (max-width:1024px) {
+	.greeting-box .greeting-top-box{padding:0 0 40px 0;}
+	.greeting-box .greeting-top-box .greeting-top-txt-box{padding:56px 20px 57px;}
+	.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-p{font-size:18px;line-height:28px;}	
+	.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-p:before{display:none;}
+	.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-title{padding:0;font-size:32px;line-height:37px;}
+	.greeting-box .greeting-top-box .greeting-img-box{height:240px;}
+
+	.greeting-box .greeting-con-box .greeting-txt-box p{padding:0 0 20px 0;}
+
+	.greeting-box .greeting-sign-box{padding:30px 0 0;}
+	.greeting-box .greeting-sign-box p{font-size:16px;line-height:21px;}
+	.greeting-box .greeting-sign-box p span{padding:0 0 0 15px;font-size:24px;line-height:29px;}
+}
+
+@media screen and (max-width :768px) {
+	.greeting-box .greeting-top-box{padding:0 0 25px 0;}
+	.greeting-box .greeting-top-box > div{display:block;width:100%;}
+	.greeting-box .greeting-top-box .greeting-top-txt-box{padding:30px 20px 35px;background-position:-150px bottom;}
+	.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-p{padding:0 0 5px 0;font-size:16px;line-height:26px;}	
+	.greeting-box .greeting-top-box .greeting-top-txt-box .greeting-title{font-size:20px;line-height:25px;}
+	.greeting-box .greeting-top-box .greeting-img-box{height:180px;}
+
+	.greeting-box .greeting-con-box{padding:0 10px;}
+	.greeting-box .greeting-con-box .greeting-txt-box p{font-size:14px;line-height:22px;}
+	.greeting-box .greeting-con-box .greeting-txt-box p.strong-p{font-size:15px;color:#ed6d00;line-height:20px;}
+
+	.greeting-box .greeting-sign-box{padding:20px 0 0;}
+	.greeting-box .greeting-sign-box p{font-size:14px;line-height:19px;}
+	.greeting-box .greeting-sign-box p span{padding:0 0 0 10px;font-size:20px;line-height:25px;}
+}
+
+@media screen and (max-width :480px) {
+
+}

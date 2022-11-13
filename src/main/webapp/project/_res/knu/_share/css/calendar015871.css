@@ -1,0 +1,161 @@
+.fc-body .fc-mon , .fc-body .fc-wed , .fc-body .fc-fri{border-left:1px solid #d8d8d8 !important;border-right:1px solid #d8d8d8 !important;}
+
+.fc-event-container{border:none !important;}
+
+.fc-toolbar h2{display:inline-block;padding:0 25px;min-width:150px;font-size:25px;line-height:30px;font-weight:500;vertical-align:top;box-sizing:border-box;}
+.fc-toolbar.fc-header-toolbar{margin:0 0 18px;}
+.fc-unthemed th{padding:14px 0;border:none;background-color:#222;font-weight:500;font-size:16px;border-left:1px solid #d8d8d8;color:#fff;}
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number{float:left;font-size:15px;font-weight:500;}
+.fc-basic-view .fc-week-number, .fc-basic-view .fc-day-number{padding:5px 10px;}
+.fc-day-top.fc-other-month{opacity:0.3;}
+
+tr:first-child > td > .fc-day-grid-event{margin-top:0;}
+.fc-event{border-radius:0;margin-top:5px;}
+.fc-event .fc-content{text-align:center;}
+.fc-event .fc-content .fc-title{display:inline-block;color:#000000;padding:6px 10px 7px;font-size:13px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.fc-basic-view .fc-body .fc-row{min-height:120px;border-bottom:1px solid #d8d8d8;}
+
+.fc-unthemed td.fc-today{border:none;background:#f2f2f2;}
+.fc-toolbar button{width:30px;height:30px;background:none;border:1px solid #989898;border-radius:50%;opacity:0.6;}
+.fc-toolbar button:hover{opacity:1;}
+.fc button .fc-icon{margin:6px 0 0;vertical-align:top;}
+.fc-toolbar .fc-icon.fc-icon-right-single-arrow{width:7px;height:13px;background:url(../img/board/b-ico-btn-next.png) no-repeat 0 0;background-size:100%;}
+.fc-toolbar .fc-icon.fc-icon-left-single-arrow{width:7px;height:13px;background:url(../img/board/b-ico-btn-prev.png) no-repeat 0 0;background-size:100%;}
+.fc-icon-right-single-arrow:after{display:none;}
+.fc-icon-left-single-arrow:after{display:none;}
+
+.fc-event-container{cursor:pointer;}
+.fc-day-grid-event{margin:2px 10px;}
+
+.board-calendar-specific{display:none;position:absolute;z-index:10;padding:15px 20px;width:285px;background-color:#f3f3f3;box-sizing:border-box;}
+.board-calendar-input{padding:5px 10px;width:100%;border:1px solid #979797;font-family:inherit;font-weight:300;font-size:15px;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0;}
+.w130{width:130px !important;}
+.btn-mg-l10{margin-left:10px;}
+.board-calendar-category01.mgT30{margin:30px 0 2px 0;}
+.category-ty{width:100%;margin:0 0 2px 0;position:relative;}
+
+/* 카테고리 */
+.fc-event.board-calendar-home {background:#f2f8f6; }
+.fc-event.board-calendar-board {background:#f9e6ec; }
+
+.board-calendar-category span{color:#fff;padding:7px 15px;font-size:13px;font-weight:200;width: 90%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.board-calendar-category1{width:100%;background:#f2f8f6;margin:0 0 2px 0;position: relative;}
+.board-calendar-category2{background:#f9e6ec;}
+.board-calendar-category3{background:#f5f2eb;}
+.board-calendar-category4{background:#ddeaf0;}
+.board-calendar-category5{background:#efe3ef;}
+.board-calendar-category6{background:#fbefeb;}
+.board-calendar-category7{background:#e9e8ff;}
+.board-calendar-category8{background:#eef2e2;}
+.board-calendar-category9{background:#f7e8d4;}
+.board-calendar-category10{background:#ebf4fb;}
+.board-calendar-category11{background:#fff8d7;}
+.board-calendar-category12{background:#e3f4e6;}
+.board-calendar-category13{background:#fce3e3;}
+.board-calendar-category14{background:#f5e8ff;}
+.board-calendar-category15{background:#e8f7dc;}
+.board-calendar-category16{background:#f7dcf0;}
+.board-calendar-category17{background:#fae8e8;}
+
+ul.sche_typeList li span.category-ty{width:17px;height:17px;margin:0;}
+.category-bar{position:absolute;top:0;left:0;width:5px;height:100%;}
+
+/* 캘린더 */
+.board-search-calendar li a{position:relative;padding-left:15px;}
+.board-search-calendar li:first-of-type a{padding-left:0;}
+.board-search-calendar li a:after{content:"";display:block;position:absolute;top:10px;left:0;width:8px;height:8px;}
+.board-search-calendar .board-search-calendar01:after{background-color:#9575cd;}
+.board-search-calendar .board-search-calendar02:after{background-color:#82b1ff;}
+.board-search-calendar .board-search-calendar03:after{background-color:#93cc96;}
+.board-calendar-box:after{content:"";display:block;clear:both;}
+.board-calendar-main-wrap .btn-wrap{position:relative;top:0;}
+.board-calendar-sub-wrap{float:right;padding:17px 0 0 0;width:calc(30% - 25px);}
+.board-calendar-top-box{padding:0 0 5px 0;}
+.calendar-check .board-calendar-top-box{position:absolute;top:100px;left:0;width:100%;z-index:9;}
+.board-calendar-category{min-height:0; text-align: right;}
+.board-calendar-category li{display:inline-block;position:relative;margin:0 0 0 8px;padding:0 0 0 8px;font-size:13px;}
+.board-calendar-category li:first-of-type{margin:0;}
+.board-calendar-category li:after{content:"";display:block;position:absolute;top:3px;left:0;width:4px;height:10px;}
+.board-calendar-category01:after{background-color:#2e4b82;}
+.board-calendar-category02:after{background-color:#608db9;}
+.board-calendar-category03:after{background-color:#e26f38;}
+.board-calendar-category04:after{background-color:#bf7ea6;}
+.board-calendar-category05:after{background-color:#53aead;}
+.board-calendar-category06:after{background-color:#5f426c;}
+.board-calendar-category07:after{background-color:#000000;}
+.board-calendar-tab:after{content:"";display:block;clear:both;}
+.board-calendar-tab li:last-of-type:after{display:none;}
+.board-calendar-tab li.active{font-weight:500;}213
+.board-calendar-list-wrap p{padding:23px 0 26px;font-size:15px;text-align:center;}
+.board-calendar-list > li{position:relative;padding:15px 20px;}
+.board-calendar-list > li p span{line-height:25px;}
+.board-calendar-list > li p span:nth-of-type(2){padding:0 4px 0 0;font-weight:500;}
+.board-calendar-list > li ul li{position:relative;padding:0 0 0 9px;line-height:25px;}
+.board-calendar-list > li ul li:before{content:'';display:block;position:absolute;top:12px;left:0;width:2px;height:2px;background:#555;}
+.board-calendar-list-term{display:block;font-weight:200;font-size:13px;color:#5e5e5e;}
+.board-calendar-m-close{display:none;}
+.board-name-calendar-view .btn-wrap > li > .btn{margin:0 0 10px 0;font-weight:400;font-size:14px;}
+
+.fc-head > tr{border:1px solid #d8d8d8;border-top:0;border-bottom:0;}
+.fc-body > tr{border:1px solid #d8d8d8;border-top:0;border-bottom:0;}
+.fc-row .fc-content-skeleton table tr td:nth-of-type(7n - 6){color:#e01354;}
+.fc-row .fc-content-skeleton table tr td:nth-of-type(7n){color:#0076a3;}
+.fc-ltr .fc-h-event.fc-not-start, .fc-rtl .fc-h-event.fc-not-end{border-color:rgba(0,0,0,0.1) !important;}
+.fc-start, .fc-end{border-color:rgba(0,0,0,0.1) !important;}
+
+.b-sche-box{padding:15px 0;min-height:634px;border:1px solid #d8d8d8;border-top:1px solid #222;}
+.b-sche-box .board-calendar-day{padding:0 0 10px;font-size:20px;line-height:26px;font-weight:500;color:#025c39;text-align:center;}
+
+.calendar-event-today{display:inline-block;padding:9px 10px;min-width:110px;min-height:35px;border:1px solid rgba(0,0,0,0.5);border-radius:5px;font-size:15px;line-height:15px;font-weight:500;box-sizing:border-box;text-align:center;}
+.calendar-event-today:hover{background:#095d3b;color:#fff;}
+
+.fc-header-toolbar .fc-right .btn-wrap{position:absolute;right:0;}
+
+/* 레이어팝업 */
+.popup-wrap{display:none;position:fixed;width:100%;height:100vh;background:rgba(0,0,0,0.3);z-index:30;box-sizing:border-box; top: 0; left: 0;}
+.b-reserv-popup-wrap{position:absolute;top:50%;left:50%;margin:0 auto;width:100%;max-width:620px;background:#fff;border:2px solid #222;border-radius:0px;box-sizing:border-box;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);}
+.b-reserv-popup-wrap .reserv-title-box p{padding:15px 20px;background:#222;font-size:20px;color:#fff;font-weight:500;}
+.b-reserv-popup-wrap .reserv-info-box{padding:30px;}
+.b-reserv-popup-wrap .reserv-info-box table{width:100%;table-layout:fixed;border-collapse:collapse;border-spacing:0;text-align:center;}
+.b-reserv-popup-wrap .reserv-info-box table thead{border-top:1px solid #222;border-bottom:1px solid #ccc;}
+.b-reserv-popup-wrap .reserv-info-box table th{padding:20px 10px;background:#f6f6f6;font-size:15px;line-height:20px;font-weight:600;}
+.b-reserv-popup-wrap .reserv-info-box table tbody tr{border-bottom:1px solid #ccc;}
+.b-reserv-popup-wrap .reserv-info-box table td{padding:20px 10px;font-size:15px;line-height:20px;}
+.b-reserv-popup-wrap .btn-popup-close{position:absolute;top:20px;right:20px;width:15px;height:15px;background:url(../img/board/btn-all-menu-close.png) no-repeat right center;}
+
+@media screen and (max-width:768px){
+	
+	.b-viewmode-box{padding:0 0 15px;}
+	
+	.fc-toolbar h2{padding:0 15px;min-width:125px;font-size:18px;line-height:25px;}
+	.fc-prev-button{padding:0 3px 0 0;}
+	.fc-next-button{padding:0 0 0 3px;}
+	.fc-toolbar.fc-header-toolbar{margin:0 0 15px;}
+	.fc-toolbar button{width:26px;height:26px;}
+	
+	.board-calendar-main-wrap{float:none;margin:0;padding:0 0 20px;width:auto;}
+	.board-calendar-specific{right:0;top:85px;padding:15px;width:250px;}
+	.board-calendar-input{padding:2px 5px;}
+	.board-calendar-sub-wrap{float:none;padding:0;width:auto;}
+	
+	.fc-unthemed th{padding:10px 0;font-size:14px;}
+	.fc-basic-view .fc-body .fc-row{min-height:110px;}
+	.fc-ltr .fc-basic-view .fc-day-top .fc-day-number{font-size:14px;}
+	.fc-event .fc-content .fc-title{padding:3px 10px 4px;font-size:12px;}
+	.fc-day-grid-event{margin:2px 8px;}
+	
+	.b-sche-box{min-height:auto;}
+	.b-sche-box .board-calendar-day{padding:0 0 5px;font-size:18px;line-height:24px;}
+	.board-calendar-list > li{padding:5px 14px;}
+	.board-calendar-list > li p span{font-size:14px;line-height:22px;}
+	.board-calendar-list > li ul li{padding:0 0 0 6px;font-size:14px;line-height:22px;}
+	
+	.calendar-event-today{padding:4px 10px;min-width:50px;min-height:26px;font-size:14px;line-height:14px;}
+	
+	/* 레이어팝업 */
+	.b-reserv-popup-wrap .reserv-title-box p{padding:12px 15px;font-size:17px;}
+	.b-reserv-popup-wrap .reserv-info-box{padding:15px;}
+	.b-reserv-popup-wrap .reserv-info-box table th{padding:15px 5px;font-size:14px;line-height:19px;}
+	.b-reserv-popup-wrap .reserv-info-box table td{padding:15px 5px;font-size:14px;line-height:19px;}
+	.b-reserv-popup-wrap .btn-popup-close{top:16px;right:15px;}
+}
